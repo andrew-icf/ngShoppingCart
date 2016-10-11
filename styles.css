@@ -1,3 +1,27 @@
-body {
-  background-color: red;
+nav {
+  background-color: hsl(166, 30%, 91%);
+}
+nav li {
+  display: inline-block;
+  padding: 1rem;
+}
+h1 {
+  color: hsl(14,99%,64%);
+  font-size: 5rem;
+}
+.search {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 70rem;
+}
+.labelPadding {
+  padding-left: 15rem;
+}
+.checkout {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16rem;
+  background-color: hsl(0,62%,59%);
+  color: #fff;
 }

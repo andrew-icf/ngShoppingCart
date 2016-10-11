@@ -1,13 +1,26 @@
 <div class="container-fluid">
   <div class="row">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar-header" role="navigation">
       <div class="container">
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
+        <ul class="nav navbar-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </div>
     </nav>
+    <form>
+      <div class="form-group search col-md-2">
+        <label for="category">Search by Category: </label>
+        <select class="form-control">
+          <option>hello</option>
+          <option>again</option>
+          <option>again again</option>
+        </select>
+        <label class="labelPadding" for="category">Search by Name: </label>
+        <input type="text" name="search" ng-model="search" required>
+      </div>
+      <button class="checkout" type="button" name="button"><strong>Checkout | </strong> Bag: Empty</button>
+    </form>
   </div>
 </div>
